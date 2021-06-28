@@ -1,8 +1,10 @@
-const express = require('express');
+//const express = require('express');
+
+import express from "express";
 
 const app = new express();
 
-app.get('/', (_req,res) => {
+app.get('/', async(_req,res) => {
     res.send(
         `<h1>REACT IS EXCELLENT</h1>`
     )
