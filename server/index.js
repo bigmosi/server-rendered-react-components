@@ -1,7 +1,8 @@
-//const express = require('express');
-
+import react from 'react';
 import express from "express";
 import { readFileSync } from 'fs';
+
+import { App } from '../client/App';
 
 const app = new express();
 app.use(express.static("dist"));
