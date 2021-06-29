@@ -1,5 +1,8 @@
 module.exports = {
-    mode:"development",
+
+    mode: "development",
+    mode: "production",
+      
     entry:{
         client:"./client/client.jsx"
     },
